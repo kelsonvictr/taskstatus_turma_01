@@ -9,46 +9,14 @@
 <body>
     <div class="header">
         <img src="img/profkelson-bg-black.png" alt="profkelson.dev" class="logo"><br/>
-        <div class="dev-info"> 💻 Squad de Plano de Estudos - Turma 01 - Curso Fullstack - profkelson.dev</div>
+        <div class="dev-info"> 💻 Squad de Plano de Estudos - Turma 02 - Curso Fullstack - profkelson.dev</div>
     </div>
     <div class="board">
-        <div class="column todo">
-            <h2>Backlog</h2>
-            <div class="card">
-                <div class="task">Task: FEAT001 - Linguagem de Programação Básica</div>
-                <div class="description">Description: <a href="https://www.udemy.com/course/curso-algoritmos-logica-de-programacao/" target="_blank">CURSO</a></div>
-                <div class="responsible">Responsible: Nome do dev</div>
-            </div>
-            <div class="card">
-                <div class="task">Task: FEAT002 - HTML e CSS básico </div>
-                <div class="description">Description: <a href="https://www.udemy.com/course/html-e-css-o-inicio/?couponCode=GENAISALE24" target="_blank">CURSO</a>
-                                                      <a href="https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/?couponCode=GENAISALE24" target="_blank">CURSO</a></div>
-                <div class="responsible">Responsible: Nome do dev</div>
-            </div>
-            <div class="card">
-                <div class="task">Task: FEAT003 - JavaScript básico </div>
-                <div class="description">Description: <a href="https://www.udemy.com/course/html-e-css-o-inicio/?couponCode=GENAISALE24" target="_blank">CURSO</a>
-                                                      <a href="https://www.udemy.com/course/curso-web-design-fundamentos-aprenda-html-css-e-javascript/?couponCode=GENAISALE24" target="_blank">CURSO</a></div>
-                <div class="responsible">Responsible: Nome do dev</div>
-            </div>            
-        </div>
-        <div class="column in-progress">
-            <h2>In Progress</h2>
-            <div class="card">
-                <div class="task">Task: FEAT000 - Mentorar os alunos </div>
-                <div class="description">Mentorar e auxiliar os alunos durante e após o curso</div>                                       
-                <div class="responsible">Responsible: Prof. Kelson</div>
-            </div>
-        </div>
-
-        <div class="column finished">
-            <h2>Concluded</h2>
-            <div class="card">
-                <div class="task">Task: FEAT000 - Abrir inscrições da Turma 02 </div>
-                <div class="description">Abertura da nova turma do curso.</div>                                       
-                <div class="responsible">Responsible: Prof. Kelson</div>
-            </div>
-        </div>
+        <div class="column todo" id="backlog"></div>
+        <div class="column in-progress" id="in_progress"></div>
+        <div class="column finished" id="concluded"></div>
     </div>
+
+    <script src="scripts/loadTasks.js"></script>
 </body>
 </html>
