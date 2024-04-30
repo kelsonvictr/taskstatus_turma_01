@@ -85,3 +85,4 @@ var kelson_almeida_tasks = [
 1. Crie uma branch baseada na branch **main** mais atualizada. Escolha a seguinte nomenclatura: Em caso de nova(s) tarefa(s): **feature/nome-da-tarefa**. Em caso de correção de alguma tarefa existente: **hotfix/nome-da-tarefa**.
 2. Faça um Pull Request para a branch main.
 3. Adicione revisores ao seu Pull Request: inclua o Professor e Higor Souza.
+4. Caso ainda não esteja como colaborador(a) do repositório, faça a solicitação na postagem do google classroom.
