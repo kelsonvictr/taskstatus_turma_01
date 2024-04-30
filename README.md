@@ -4,6 +4,17 @@
 
 Este guia detalha como configurar e gerenciar tarefas usando arquivos JavaScript no projeto. Siga as instruções abaixo para criar e configurar seu arquivo de tarefas.
 
+## Clone do projeto ou pull
+Caso você já tenha o projeto na sua máquina, apenas faça checkout na main:
+```git
+git checkout origin/main
+```
+
+ Caso ainda não tenha o projeto:
+ ```git
+git clone https://github.com/kelsonvictr/taskstatus_turma_01.git
+```
+
 ## Adicionando novo membro no `loadTasks.js`
 
 No arquivo **scripts/loadTasks.js** adicione seu-nome na constante "teamMembers", não esqueça da vírgula ao fim do penúltimo item da lista, antes de inserir o seu-nome. Exemplo:
@@ -19,7 +30,7 @@ const teamMembers = [
 ## Estrutura de Diretórios
 
 1. **Navegue até o diretório `db`** no projeto.
-2. **Crie uma nova pasta** com seu nome. Por exemplo: `kelson-almeida`.
+2. **Crie uma nova pasta** com seu nome. Por exemplo: `kelson-almeida`. (A pasta tem que ter exatamente o mesmo nome que foi indicado na lista "teamMembers").
 3. Dentro da sua pasta nomeada, **crie um arquivo chamado `tasks.js`**.
 
 ## Configurando seu Arquivo `tasks.js`
