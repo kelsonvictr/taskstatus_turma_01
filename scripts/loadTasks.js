@@ -1,4 +1,5 @@
 const teamMembers = [
+    'higor-souza',
     'kelson-almeida', 
     'victor-almeida',
     'fulano-silva'
