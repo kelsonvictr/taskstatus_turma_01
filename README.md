@@ -10,6 +10,11 @@ Caso você já tenha o projeto na sua máquina, apenas faça checkout na main:
 git checkout origin/main
 ```
 
+Depois atualize sua main local:
+```git
+git pull
+```
+
  Caso ainda não tenha o projeto:
  ```git
 git clone https://github.com/kelsonvictr/taskstatus_turma_01.git
