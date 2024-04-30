@@ -3,7 +3,8 @@ const teamMembers = [
     'kelson-almeida', 
     'victor-almeida',
     'joabson-angelo',
-    'fulano-silva'
+    'fulano-silva',
+    'jose-wilson'
 ]; 
 
 teamMembers.forEach(member => {
